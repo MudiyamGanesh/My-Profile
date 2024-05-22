@@ -83,3 +83,29 @@ body{
     filter: grayscale(450%);
     box-shadow: 0, 0, 0, rgba(0, 0, 0, 0.3) ;
 }
+@media (max-width: 500px){
+    body{
+        background: #fff;
+        margin:  500px 10px;
+        color: black;
+    }
+    .hide-details .close-icon{
+        transform: translateX(-325px);
+    }
+    .hide-details img{
+        transform: translateX(300px);
+    }
+    .info p{
+        color: gray;
+        font-size: 20px;
+    }
+    .info a{
+        font-size: 30px;
+        text-decoration: none;
+        display: inline-block;
+        padding: 20px 30px;
+        border-radius: 30px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+}
